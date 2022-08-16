@@ -27,7 +27,8 @@ class ToDoTableViewController: UITableViewController {
         dog.name = "Walk the dog"
         
         let clean = ToDo()
-        clean.name = "Clean!!"
+        clean.name = "Clean now!!"
+        clean.important = true
         
         return [swift, dog, clean]
     }
